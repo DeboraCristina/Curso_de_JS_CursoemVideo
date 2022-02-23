@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Variaveis</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color: white;
+            font: normal 14pt Arial;
+        }
+        h1{
+            color: rgb(255, 0, 0);
+        }
+        /* comentario em CSS */
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!--comentario em html-->
+    <p>Seguindo a tradição.</p>
+
+    <script>
+        var n1 = Number.parseFloat(prompt('digite um numero'))
+        var n2 = Number(prompt('digite outro numero'))
+        var result = 'o resultado entre ' + String(n1) + ' e ' + String(n2) + ' é ' + String(n1 + n2)
+        var result = `o resultado entre ${n1} e ${n2} é ${n1 + n2}.`
+        alert(result)
+    </script>
+</body>
+</html>

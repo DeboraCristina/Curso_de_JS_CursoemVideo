@@ -1,0 +1,10 @@
+funções
+objetos
+modularização
+RegEx
+json
+ajax
+nodejs
+React e ReactNative
+Electron
+

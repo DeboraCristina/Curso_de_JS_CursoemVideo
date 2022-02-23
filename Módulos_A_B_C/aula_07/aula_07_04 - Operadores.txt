@@ -1,0 +1,36 @@
+TIPOS DE OPERADORES
+
+→
+►
+→PRINCIPAIS FAMILIAS
+►Aritiméticos
+	► +  5+2 --> 7  ----> SOMA
+	► -  5-2 --> 3 ----> SUBTRAÇÃO
+	► * 5*2 --> 10 ----> MULTIPLICAÇÃO
+	► %  5%2 --> 1  ----> RESTO DA DIVISÃO INTEIRA
+	► /  5/2 --> 2.5 ---->DIVISÃO REAL
+	► ** 5**2 --> 25 ---->POTENCIA
+	►ORDEM DOS OPERADORES
+		► POT/RAIZ -> DIV/MULT -> SOM/SUB
+		► ( ) -> [ ] -> { } -> NÚMEROS
+►atribuição
+	►n += 5
+	►n *= 5
+►relacionais
+	► <
+	►<=
+	► >
+	► >=
+	► ==
+	► !=
+		► 5 == 5 -> true
+		► 5 == '5' -> true
+		► 5 === "5" -> false
+►lógicos
+	► !
+	► &&
+	► ||
+►ternário
+	► teste ? true : false
+	► 5 == 5 ? 'igual' : 'diferente'
+

@@ -1,0 +1,39 @@
+MANIPULANDO STRINGS NO JS
+
+→
+►
+
+→Tipos de Formatação:
+var msg = 'Mundo'
+►"Olá, " ou 'Olá, ' + msg + '!'
+►`Olá, ${msg}!`
+
+→Manipulações:
+var s = 'JavaScript'
+►s.length		// mostra quantos caracteres tem a string
+►s.toUpperCase() // tudo em MAIÚSCULO
+►s.toLowerCase() // tudo em minúsculo
+
+→Formatando Numeros:
+var n = 1546.8
+►n.toFixed(2) //formata pra 2 casas decimais
+►n.toFixed(2).replace(".", ",") //troca o ponto por virgula
+►n.toLocateString('pt-BR', {style: 'currecy', currency: 'BRL'})
+	►BRL --> REAL
+	►USD --> DOLLAR
+	►EUR --> EUROS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

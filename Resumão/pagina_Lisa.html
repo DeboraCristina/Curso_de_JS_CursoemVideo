@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo Muito Bonito</title>
+    <style> 
+        /* parte de estilos css */
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body> <!-- corpo do site --> <!--  -->
+    <h1>Olá, Mundo!</h1><!-- titulo simples -->
+
+    <div id="txt"></div> <!-- div com um identificador, id -->
+
+    <h6 class="minititi"></h6>
+
+    <script>
+        /*parte de scrits*/
+        /*
+        window.alert('um alerta simples.') // é executado antes de tudo
+        // o 'window não é obrigatório'
+        window.confirm('caixa de confirmação') // caixa de confirmação, com ok e cancelar
+        //confirm('caixa de confirmação')
+        window.prompt('caixa com entreda de texto') // caixa com entreda de texto
+        //prompt('caixa com entreda de texto')
+        */
+        var n1 = 1 // variaveis podem ser declaradas por 'var'
+        let n2 = 2 // ou 'let'
+        // é possivel manipular itens html pelo JS
+        var txt = document.getElementById('txt')
+        txt.innerHTML = '<p>Seja bem vindo.</p>'
+        var mini = document.getElementsByClassName('mimitit')
+        mimi.innerHTML = `fff${n1} + ${n2} é ${n1+n2}`
+
+    </script>
+</body>
+</html>

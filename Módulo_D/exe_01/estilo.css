@@ -1,0 +1,27 @@
+body{
+	background-color: #e442cf;
+	font: normal 12pt Arial;
+}
+
+header{
+	color: white;
+	font-size: 14pt;
+}
+
+section{
+	background-color: white;
+	margin: auto;
+	width: 300px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#qhora{
+	margin-bottom: 10px;
+}
+
+
+footer{
+	color: white;
+	font-style: italic;
+}

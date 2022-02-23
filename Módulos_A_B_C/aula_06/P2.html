@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação</title>
+    <style>
+        body
+        {
+            background-color: rgb(226, 223, 43);
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        
+        
+        //var nome = window.prompt('Qual o seu nome?')
+        nome = 'Débora'
+        document.writeln(`<center>Formatando Strings</center>`)
+        document.writeln(`Olá <strong>${nome}</strong>, seu nome tem ${nome.length} letras.</br>`)
+        document.writeln(`Olá ${nome.toUpperCase()}!</br>`)
+        document.writeln(`Olá ${nome.toLowerCase()}!</br>`)
+        
+        document.write(`<CENTER>Formatando Numeros</CENTER>`)
+        var n1 = 1545.5
+        document.write(n1.toFixed(2).replace(".", ",") + "</br>") //duas casas decimais com virgula
+        document.write(n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) + '</br>') //formatação monetario
+    </script>
+</body>
+</html>

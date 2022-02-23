@@ -1,0 +1,26 @@
+VARIAVEIS NO JS
+
+Tipos:
+→strings
+►" "
+►' '
+►` `
+→bollean
+►True
+►False
+→Numbers
+►1, -10
+►1.5, -3.66
+
+Elas aceitam:
+→numbers
+►Infinity
+►NaN
+→string
+→bollean
+→null
+→undefined
+→object
+►array
+→function
+

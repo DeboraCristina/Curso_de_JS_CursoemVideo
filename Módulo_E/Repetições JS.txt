@@ -1,0 +1,7 @@
+Retetições JS
+
+→ Tipos de repetições:
+► while
+► do while
+► for
+
